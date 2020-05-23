@@ -2,7 +2,7 @@
 
 //////////////////////////////////////////////////////////
 $(document).ready(function () {
-    $("*").css("color","red");
+    $("*").css("color","blue");
     $(".outro").css("color", "black");
     $("h2, div").css("background-color","blue");
 });
