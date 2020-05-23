@@ -1,11 +1,11 @@
 //////////////////////////////////////////////////////////selector_composto
 
 //////////////////////////////////////////////////////////
-$(document).ready(function () {
-    $("*").css("color","blue");
-    $(".outro").css("color", "black");
-    $("h2, div").css("background-color","blue");
-});
+// $(document).ready(function () {
+//     $("*").css("color","blue");
+//     $(".outro").css("color", "black");
+//     $("h2, div").css("background-color","blue");
+// });
 /////////////////////////////////////////////////////////
 // $(document).ready(function() {
 //     $("h1").click(function() {
