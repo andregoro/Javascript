@@ -218,4 +218,77 @@
 // let st=myArray.join(" + ");
 // console.log(st);
 
-console.log('%cW','color:red;font-size:30px;');
+//Get Mouse Position
+// window.addEventListener('mousemove',function (e) {
+//     //console.log("${e.x}|${e.y}");
+//     document.getElementById("y").textContent=e.y
+//     document.getElementById("x").textContent=e.x
+// });
+
+// How to Style Console
+//console.log('%cW','color:red;font-size:30px;');
+
+//How to time your Javascript code
+// const start=new Date();
+// console.time('dcode');
+// alert("How");
+// console.timeEnd('dcode');
+
+//Hash Change Event
+// var sp=document.getElementById('y');
+// window.addEventListener('hashchange',function(){
+//     console.log('Hey');
+//     sp.textContent=window.location.hash;
+//  });
+
+//Learn XML HTTP Requests
+// const xhr = new XMLHttpRequest();
+// xhr.onreadystatechange = function(){
+//     if(xhr.readyState == 4) {
+//         if(xhr.readyState==200){
+//             console.log(xhr.responseText);
+//             document.getElementById('p').textContent=xhr.responseText;
+//         }
+//         if(xhr.status == 404){
+//             console.log('Files nao existe');
+//         }
+//     }
+// };
+// xhr.open('get','dom.txt',true);
+//   //  console.log('um arquivo aqui');
+
+//Form Data (FormData)
+// const data=new FormData();
+
+// data.append("name","Domenic");
+// data.append("age",56);
+
+// const xhr =new XMLHttpRequest();
+// xhr.open("POST","bottle.php",true);
+// xhr.send(data);
+
+//Node.insertBefore (Insert Before) Method
+// const myList=document.getElementById('myList');
+// const pearsItem =document.getElementById('pearsItem');
+
+// console.log(myList);
+// console.log(pearsItem);
+
+// const orangesItem = document.createElement('li');
+// orangesItem.textContent="oranges";
+
+// function adds(parent,toIsert) {
+//      const childNode = parent.firstChild;
+//      parent.insertBefore(toIsert, childNode);
+//  }
+//  adds(myList,pearsItem);
+
+//Copying Text to Clipboard in HTML
+const my=document.getElementById("inp");
+const copy=document.getElementById("copy");
+
+copy.onclick=function (){
+    my.select();
+
+    document.execCommand("Copy");
+}
